@@ -388,3 +388,7 @@ footer{
     color:#7b2cff;
     font-weight:700;
 }
+.date-card p{
+    color:#555;
+    font-size:16px;
+}
