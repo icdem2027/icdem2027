@@ -203,7 +203,7 @@ footer{
     align-items: center;
 
     color: #fff;
-}}
+}
 .hero .container{
     max-width:650px;
 }
@@ -236,4 +236,45 @@ footer{
 
     background-size:cover;
     background-position:center;
+}
+
+/* =========================
+   About Section
+========================= */
+
+.about{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.about h2{
+    font-size:2.5rem;
+    font-weight:700;
+    margin-bottom:25px;
+    color:#081230;
+}
+
+.about p{
+    font-size:18px;
+    color:#555;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+.about img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.20);
+}
+
+.about .btn{
+    margin-top:15px;
+    padding:12px 30px;
+    border-radius:50px;
+    background:#6f42c1;
+    border:none;
+}
+
+.about .btn:hover{
+    background:#5a32a3;
 }
