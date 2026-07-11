@@ -528,3 +528,60 @@ footer{
     max-width:120px;
     max-height:70px;
 }
+/* ===========================
+   Registration
+=========================== */
+
+.registration{
+
+    background:#f8f9fc;
+
+    padding:90px 0;
+
+}
+
+.registration h2{
+
+    font-size:2.5rem;
+
+    font-weight:700;
+
+    color:#081230;
+
+    margin-bottom:25px;
+
+}
+
+.registration p{
+
+    font-size:18px;
+
+    color:#555;
+
+}
+
+.registration-list{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:30px 0;
+
+}
+
+.registration-list li{
+
+    margin-bottom:15px;
+
+    font-size:18px;
+
+}
+
+.registration img{
+
+    border-radius:20px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
