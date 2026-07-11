@@ -149,6 +149,35 @@ background-repeat:no-repeat;
     width:100%;
 
 }
+.hero .row{
+
+    min-height:100vh;
+
+    align-items:center;
+
+}
+
+.hero .col-lg-6:first-child{
+
+    text-align:left;
+
+}
+
+.hero h1{
+
+    max-width:650px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-top:35px;
+
+}
 
 .hero-subtitle{
 
@@ -641,9 +670,11 @@ footer{
 
 @media(max-width:768px){
 
-    .topic-card img{
-        height:180px;
-    }
+.stats-box{
+
+grid-template-columns:1fr 1fr;
+
+}
 
 }
 /* ===========================
@@ -956,5 +987,30 @@ border:none;
 margin-bottom:30px;
 
 }
+
+}
+.stats-box{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+    align-items:center;
+
+}
+
+.stat-item{
+
+    text-align:center;
+
+    border-right:1px solid rgba(255,255,255,.2);
+
+}
+
+.stat-item:last-child{
+
+    border-right:none;
 
 }
