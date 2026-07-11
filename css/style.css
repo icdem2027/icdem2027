@@ -203,4 +203,37 @@ footer{
     align-items: center;
 
     color: #fff;
+}}
+.hero .container{
+    max-width:650px;
+}
+
+.hero{
+    min-height:95vh;
+}
+.hero h1{
+    font-size:4.5rem;
+    font-weight:800;
+    line-height:1.15;
+}
+.hero p{
+    font-size:1.3rem;
+    margin-top:25px;
+}
+.hero .btn{
+    margin-top:35px;
+    padding:16px 42px;
+    border-radius:50px;
+    font-size:18px;
+}
+.hero{
+    background:
+    linear-gradient(
+        rgba(5,5,25,.72),
+        rgba(5,5,25,.72)
+    ),
+    url("../images/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
 }
