@@ -40,9 +40,9 @@ body{
 
 .logo{
 
-    width:55px;
+    width:220px;
 
-    height:55px;
+    height:auto;
 
     object-fit:contain;
 
