@@ -102,51 +102,191 @@ body{
 
 }
 
-/* Hero */
+/* ==========================================
+   Professional Hero Banner
+========================================== */
 
 .hero{
 
+    position:relative;
+
     min-height:100vh;
+
     display:flex;
     align-items:center;
-    color:#fff;
 
-    background:
-    linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)),
-    url("../images/banner.jpg");
+    background:url("../images/hero-bg.jpg") center center/cover no-repeat;
 
-    background-size:cover;
-    background-position:center;
+    overflow:hidden;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(8,10,40,.72);
+
+}
+
+.hero-content{
+
+    position:relative;
+    z-index:2;
+
+}
+
+.hero-subtitle{
+
+    color:#8f5cff;
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    margin-bottom:20px;
 
 }
 
 .hero h1{
 
-    font-size:4rem;
-    font-weight:700;
+    color:#fff;
+
+    font-size:4.2rem;
+
+    font-weight:800;
+
+    line-height:1.15;
+
+    margin-bottom:20px;
 
 }
 
-.hero h4{
+.hero-tagline{
 
     color:#ffc107;
-    margin-top:20px;
 
-}
+    font-size:1.5rem;
 
-.hero p{
-
-    font-size:1.2rem;
-    margin-top:20px;
-
-}
-
-.hero .btn{
-
-    margin-top:25px;
-    padding:14px 35px;
-    border-radius:50px;
     font-weight:600;
+
+    margin-bottom:30px;
+
+}
+
+.hero-info{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:25px;
+
+    margin-bottom:35px;
+
+}
+
+.hero-info span{
+
+    color:#fff;
+
+    font-size:18px;
+
+}
+
+.hero-info i{
+
+    color:#b65cff;
+
+    margin-right:8px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-buttons .btn{
+
+    padding:14px 34px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+}
+
+.hero-diamond{
+
+    width:100%;
+
+    max-width:650px;
+
+    animation:floatDiamond 4s ease-in-out infinite;
+
+}
+
+@keyframes floatDiamond{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+@media(max-width:992px){
+
+.hero{
+
+    text-align:center;
+
+    padding:140px 0 80px;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+}
+
+.hero-info{
+
+    justify-content:center;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-diamond{
+
+    margin-top:40px;
+
+}
 
 }
 /* ===========================
