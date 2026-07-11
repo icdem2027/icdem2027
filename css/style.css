@@ -1,0 +1,191 @@
+/* ======================================
+   iCDEM 2027 Website
+   Version 1.0
+====================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+    color:#222;
+    line-height:1.7;
+
+}
+
+/* Navigation */
+
+.navbar{
+
+    background:rgba(8,18,48,.95);
+    backdrop-filter:blur(8px);
+    transition:.3s;
+
+}
+
+.navbar-brand{
+
+    font-size:1.6rem;
+    font-weight:700;
+    color:#ffffff !important;
+
+}
+
+.nav-link{
+
+    color:#ffffff !important;
+    margin-left:18px;
+    font-weight:500;
+
+}
+
+.nav-link:hover{
+
+    color:#ffc107 !important;
+
+}
+
+/* Hero */
+
+.hero{
+
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    color:#fff;
+
+    background:
+    linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)),
+    url("../images/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+}
+
+.hero h1{
+
+    font-size:4rem;
+    font-weight:700;
+
+}
+
+.hero h4{
+
+    color:#ffc107;
+    margin-top:20px;
+
+}
+
+.hero p{
+
+    font-size:1.2rem;
+    margin-top:20px;
+
+}
+
+.hero .btn{
+
+    margin-top:25px;
+    padding:14px 35px;
+    border-radius:50px;
+    font-weight:600;
+
+}
+/* ===========================
+   About Section
+=========================== */
+
+.about{
+
+    padding:100px 0;
+
+}
+
+.about h2{
+
+    font-weight:700;
+    margin-bottom:20px;
+
+}
+
+.about img{
+
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+/* ===========================
+   Statistics
+=========================== */
+
+.statistics{
+
+    background:#0d1b44;
+    color:#fff;
+    padding:80px 0;
+
+}
+
+.statistics h2{
+
+    font-size:3rem;
+    font-weight:700;
+    color:#ffc107;
+
+}
+
+.statistics p{
+
+    font-size:18px;
+
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+
+    background:#081230;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+
+}
+
+.hero{
+    background: linear-gradient(rgba(10,10,35,.75), rgba(10,10,35,.75)),
+                url("../images/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height:100vh;
+
+    display:flex;
+    align-items:center;
+
+    color:#fff;
+}
+
+.hero-overlay{
+    width:100%;
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+}
