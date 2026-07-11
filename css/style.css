@@ -277,3 +277,66 @@ footer{
 .about .btn:hover{
     background:#5a32a3;
 }
+/* ===========================
+   Statistics
+=========================== */
+
+.stats-section{
+
+    margin-top:-80px;
+    position:relative;
+    z-index:10;
+
+}
+
+.stats-box{
+
+    background:#17062f;
+
+    border-radius:20px;
+
+    padding:40px 20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.30);
+
+}
+
+.stats-box .col-md-3{
+
+    border-right:1px solid rgba(255,255,255,.15);
+
+}
+
+.stats-box .col-md-3:last-child{
+
+    border-right:none;
+
+}
+
+.stats-box i{
+
+    font-size:40px;
+
+    color:#bb86fc;
+
+    margin-bottom:15px;
+
+}
+
+.stats-box h2{
+
+    color:#fff;
+
+    font-size:42px;
+
+    font-weight:700;
+
+}
+
+.stats-box p{
+
+    color:#ddd;
+
+    margin:0;
+
+}
