@@ -111,10 +111,11 @@ body{
     position:relative;
 
     min-height:100vh;
+    padding-top:120px;
 
     display:flex;
     align-items:center;
-    
+
     background:
 linear-gradient(rgba(8,10,40,.70), rgba(8,10,40,.70)),
 url("../images/banner.jpg");
@@ -145,18 +146,17 @@ background-repeat:no-repeat;
 
     position:relative;
     z-index:2;
+    width:100%;
 
 }
 
 .hero-subtitle{
 
-    color:#8f5cff;
-
-    font-size:2rem;
+    font-size:2.2rem;
 
     font-weight:700;
 
-    margin-bottom:20px;
+    color:#9f67ff;
 
 }
 
@@ -190,11 +190,11 @@ background-repeat:no-repeat;
 
     display:flex;
 
+    gap:30px;
+
+    margin:30px 0;
+
     flex-wrap:wrap;
-
-    gap:25px;
-
-    margin-bottom:35px;
 
 }
 
@@ -272,7 +272,15 @@ background-repeat:no-repeat;
 
 .hero h1{
 
-    font-size:3rem;
+    font-size:4.8rem;
+
+    font-weight:800;
+
+    line-height:1.15;
+
+    max-width:700px;
+
+    margin-bottom:25px;
 
 }
 
