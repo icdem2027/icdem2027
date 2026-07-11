@@ -54,184 +54,53 @@ body{
 
 }
 
-/*==============================
- HERO
-==============================*/
+/* Hero */
 
 .hero{
 
     min-height:100vh;
-
     display:flex;
-
     align-items:center;
+    color:#fff;
 
     background:
-
-    linear-gradient(
-
-    rgba(8,6,35,.88),
-
-    rgba(15,8,45,.88)
-
-    ),
-
+    linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)),
     url("../images/banner.jpg");
 
     background-size:cover;
-
     background-position:center;
-
-    color:#fff;
-
-    position:relative;
-
-}
-
-.hero::before{
-
-    content:"";
-
-    position:absolute;
-
-    width:100%;
-
-    height:100%;
-
-    background:
-
-    radial-gradient(circle,
-
-    rgba(130,70,255,.20),
-
-    transparent 60%);
-
-}
-
-.hero .container{
-
-    position:relative;
-
-    z-index:2;
-
-}
-
-.hero-small{
-
-    color:#a855f7;
-
-    font-size:48px;
-
-    font-weight:700;
 
 }
 
 .hero h1{
 
-    font-size:64px;
-
+    font-size:4rem;
     font-weight:700;
 
-    line-height:1.2;
-
-    margin-top:10px;
-
 }
 
-.hero h3{
+.hero h4{
 
     color:#ffc107;
-
     margin-top:20px;
 
-    font-size:36px;
+}
+
+.hero p{
+
+    font-size:1.2rem;
+    margin-top:20px;
 
 }
 
-.hero-info{
+.hero .btn{
 
-    margin-top:35px;
-
-}
-
-.hero-info span{
-
-    display:inline-block;
-
-    margin-right:30px;
-
-    font-size:18px;
-
-}
-
-.hero-info i{
-
-    color:#b84dff;
-
-    margin-right:10px;
-
-}
-
-.hero-buttons{
-
-    margin-top:40px;
-
-}
-
-.btn-purple{
-
-    background:#7b2cff;
-
-    color:#fff;
-
-    padding:15px 35px;
-
-    border-radius:10px;
-
-    margin-right:20px;
-
+    margin-top:25px;
+    padding:14px 35px;
+    border-radius:50px;
     font-weight:600;
 
 }
-
-.btn-purple:hover{
-
-    background:#9b4dff;
-
-    color:#fff;
-
-}
-
-.hero-image{
-
-    width:95%;
-
-    animation:float 5s ease infinite;
-
-}
-
-@keyframes float{
-
-    0%{
-
-        transform:translateY(0);
-
-    }
-
-    50%{
-
-        transform:translateY(-15px);
-
-    }
-
-    100%{
-
-        transform:translateY(0);
-
-    }
-
-}
-
 /* ===========================
    About Section
 =========================== */
