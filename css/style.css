@@ -265,27 +265,29 @@ background-repeat:no-repeat;
 
 .hero-diamond{
 
-    width:100%;
-
     max-width:650px;
 
-    animation:floatDiamond 4s ease-in-out infinite;
+    width:100%;
+
+    animation:floatDiamond 5s ease-in-out infinite;
+
+    filter:drop-shadow(0 20px 50px rgba(163,86,255,.5));
 
 }
 
 @keyframes floatDiamond{
 
-    0%{
-        transform:translateY(0px);
-    }
+0%{
+transform:translateY(0);
+}
 
-    50%{
-        transform:translateY(-12px);
-    }
+50%{
+transform:translateY(-18px);
+}
 
-    100%{
-        transform:translateY(0px);
-    }
+100%{
+transform:translateY(0);
+}
 
 }
 
