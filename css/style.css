@@ -114,6 +114,8 @@ color:#c98bff;
 
 background:linear-gradient(90deg,#7b2cff,#b85cff);
 
+white-space: nowrap;
+
 padding:12px 28px;
 
 border-radius:50px;
@@ -123,6 +125,8 @@ color:white;
 font-weight:700;
 
 transition:.3s;
+
+min-width: 180px;
 
 }
 
