@@ -941,3 +941,88 @@ font-size:14px;
 font-weight:600;
 
 }
+/*==============================
+Organizing Committee
+==============================*/
+
+.committee{
+
+padding:120px 0;
+
+background:#ffffff;
+
+}
+
+.committee-card{
+
+background:#fff;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+transition:.35s;
+
+height:100%;
+
+}
+
+.committee-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.committee-card img{
+
+width:100%;
+
+height:350px;
+
+object-fit:cover;
+
+}
+
+.committee-content{
+
+padding:25px;
+
+text-align:center;
+
+}
+
+.committee-content h4{
+
+font-size:24px;
+
+font-weight:700;
+
+color:#081230;
+
+margin-bottom:10px;
+
+}
+
+.committee-content p{
+
+font-size:18px;
+
+color:#8b5cf6;
+
+font-weight:600;
+
+margin-bottom:10px;
+
+}
+
+.committee-content span{
+
+color:#666;
+
+font-size:16px;
+
+}
