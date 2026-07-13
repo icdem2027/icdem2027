@@ -1184,3 +1184,78 @@ max-height:70px;
 object-fit:contain;
 
 }
+/*==============================
+Venue & Contact
+==============================*/
+
+.venue-contact{
+
+padding:120px 0;
+
+background:#f7f8fc;
+
+}
+
+.contact-card{
+
+background:#fff;
+
+padding:40px;
+
+border-radius:20px;
+
+height:100%;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.contact-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.contact-card h3{
+
+font-size:28px;
+
+font-weight:700;
+
+color:#081230;
+
+margin-bottom:25px;
+
+}
+
+.contact-card h3 i{
+
+color:#8b5cf6;
+
+margin-right:10px;
+
+}
+
+.contact-card h4{
+
+margin-top:20px;
+
+font-size:22px;
+
+font-weight:700;
+
+}
+
+.contact-card p{
+
+font-size:17px;
+
+line-height:1.8;
+
+color:#555;
+
+}
