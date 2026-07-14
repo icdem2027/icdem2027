@@ -1612,3 +1612,228 @@ color:#8b5cf6;
 margin:0;
 
 }
+/*====================================
+Invited Speakers
+====================================*/
+
+.speakers-section{
+
+padding:120px 0;
+
+background:#f8f9fc;
+
+}
+
+.speaker-card{
+
+background:#fff;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+transition:.35s;
+
+height:100%;
+
+}
+
+.speaker-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 45px rgba(139,92,246,.20);
+
+}
+
+.speaker-photo{
+
+width:100%;
+
+height:320px;
+
+object-fit:cover;
+
+}
+
+.speaker-info{
+
+padding:25px;
+
+text-align:center;
+
+}
+
+.speaker-info h4{
+
+font-size:22px;
+
+font-weight:700;
+
+color:#081230;
+
+margin-bottom:10px;
+
+}
+
+.speaker-info h6{
+
+font-size:17px;
+
+color:#8b5cf6;
+
+margin-bottom:15px;
+
+font-weight:600;
+
+}
+
+.speaker-info p{
+
+font-size:15px;
+
+color:#666;
+
+margin:0;
+
+line-height:1.7;
+
+}
+/*====================================
+Registration Page
+====================================*/
+
+.registration-section{
+
+padding:120px 0;
+
+background:#f8f9fc;
+
+}
+
+.registration-card{
+
+background:#fff;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+height:100%;
+
+}
+
+.registration-card h3{
+
+font-size:26px;
+
+font-weight:700;
+
+margin-bottom:25px;
+
+color:#081230;
+
+}
+
+.registration-table td{
+
+padding:15px;
+
+font-size:17px;
+
+}
+
+.registration-list{
+
+padding-left:20px;
+
+}
+
+.registration-list li{
+
+margin-bottom:14px;
+
+font-size:17px;
+
+color:#444;
+
+}
+
+.registration-section .register-btn{
+
+display:inline-block;
+
+padding:18px 45px;
+
+font-size:20px;
+
+}
+/*====================================
+Important Notes
+====================================*/
+
+.important-notes{
+
+background:#ffffff;
+
+padding:100px 0;
+
+}
+
+.notes-card{
+
+background:#fff;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 10px 35px rgba(0,0,0,.08);
+
+border-left:6px solid #8b5cf6;
+
+}
+
+.notes-card ul{
+
+list-style:none;
+
+padding:0;
+
+margin:0;
+
+}
+
+.notes-card li{
+
+font-size:17px;
+
+line-height:1.9;
+
+margin-bottom:18px;
+
+color:#444;
+
+display:flex;
+
+align-items:flex-start;
+
+gap:12px;
+
+}
+
+.notes-card i{
+
+color:#8b5cf6;
+
+font-size:18px;
+
+margin-top:5px;
+
+min-width:20px;
+
+}
