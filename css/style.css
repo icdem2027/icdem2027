@@ -1404,3 +1404,70 @@ z-index:9999;
 box-shadow:0 10px 25px rgba(0,0,0,.2);
 
 }
+/* ===========================
+Important Dates
+=========================== */
+
+.important-dates-section{
+
+background:#ffffff;
+
+}
+
+.timeline-card{
+
+background:#fff;
+
+border-radius:20px;
+
+padding:35px 20px;
+
+text-align:center;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+transition:.35s;
+
+height:100%;
+
+}
+
+.timeline-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 40px rgba(123,44,255,.18);
+
+}
+
+.timeline-card i{
+
+font-size:45px;
+
+color:#8b3dff;
+
+margin-bottom:20px;
+
+}
+
+.timeline-card h4{
+
+font-size:20px;
+
+font-weight:700;
+
+margin-bottom:10px;
+
+}
+
+.timeline-card p{
+
+font-size:17px;
+
+font-weight:600;
+
+color:#6d28d9;
+
+margin:0;
+
+}
