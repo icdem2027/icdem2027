@@ -1471,3 +1471,144 @@ color:#6d28d9;
 margin:0;
 
 }
+/*==============================
+Submission Form
+==============================*/
+
+.submission-section{
+
+background:#f8f9ff;
+
+}
+
+.submission-card{
+
+background:#fff;
+
+padding:50px;
+
+border-radius:25px;
+
+box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+}
+
+.submission-card label{
+
+font-weight:600;
+
+margin-bottom:8px;
+
+display:block;
+
+color:#222;
+
+}
+
+.form-control,
+.form-select{
+
+height:55px;
+
+border-radius:12px;
+
+border:1px solid #ddd;
+
+}
+
+textarea.form-control{
+
+height:auto;
+
+}
+
+.submit-btn{
+
+background:linear-gradient(90deg,#7b2cff,#b85cff);
+
+color:#fff;
+
+border:none;
+
+padding:16px 45px;
+
+font-size:18px;
+
+font-weight:700;
+
+border-radius:50px;
+
+transition:.3s;
+
+}
+
+.submit-btn:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 15px 35px rgba(123,44,255,.35);
+
+}
+/*====================================
+Committee Section
+====================================*/
+
+.committee-section{
+
+padding:120px 0;
+
+background:#f8f9fc;
+
+}
+
+.committee-card{
+
+background:#fff;
+
+padding:30px;
+
+border-radius:18px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.3s;
+
+text-align:center;
+
+height:100%;
+
+border-left:5px solid #8b5cf6;
+
+}
+
+.committee-card:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 18px 40px rgba(139,92,246,.20);
+
+}
+
+.committee-card h4{
+
+font-size:24px;
+
+font-weight:700;
+
+color:#081230;
+
+margin-bottom:10px;
+
+}
+
+.committee-card h6{
+
+font-size:17px;
+
+font-weight:600;
+
+color:#8b5cf6;
+
+margin:0;
+
+}
