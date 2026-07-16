@@ -2219,3 +2219,148 @@ background:#7b2cff;
 color:#fff;
 
 }
+/*====================================
+Special Journal Issue
+====================================*/
+
+.journal-section{
+
+padding:90px 0;
+
+background:#ffffff;
+
+}
+
+.journal-section h2{
+
+font-size:42px;
+
+font-weight:700;
+
+color:#081230;
+
+margin-bottom:10px;
+
+}
+
+.journal-section h4{
+
+font-weight:600;
+
+margin-bottom:20px;
+
+color:#7b2cff;
+
+}
+
+.journal-section p{
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#555;
+
+}
+
+.journal-details{
+
+background:#f8f9fc;
+
+padding:90px 0;
+
+}
+
+.journal-card{
+
+background:#fff;
+
+padding:45px;
+
+border-radius:20px;
+
+box-shadow:0 15px 45px rgba(0,0,0,.08);
+
+}
+
+.journal-card h2{
+
+font-size:32px;
+
+font-weight:700;
+
+color:#081230;
+
+margin-bottom:25px;
+
+}
+
+.journal-card h4{
+
+margin-top:30px;
+
+font-weight:700;
+
+color:#7b2cff;
+
+}
+
+.journal-card p{
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#555;
+
+}
+
+.journal-card table{
+
+margin-top:20px;
+
+margin-bottom:30px;
+
+}
+
+.journal-card .btn{
+
+border-radius:50px;
+
+padding:12px 30px;
+
+font-weight:600;
+
+margin-top:10px;
+
+}
+
+.journal-card .btn-primary{
+
+background:#7b2cff;
+
+border:none;
+
+}
+
+.journal-card .btn-primary:hover{
+
+background:#6320d4;
+
+}
+
+.journal-card .btn-outline-primary{
+
+border:2px solid #7b2cff;
+
+color:#7b2cff;
+
+}
+
+.journal-card .btn-outline-primary:hover{
+
+background:#7b2cff;
+
+color:#fff;
+
+}
