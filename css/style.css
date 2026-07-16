@@ -1835,5 +1835,114 @@ font-size:18px;
 margin-top:5px;
 
 min-width:20px;
+}
+
+/*====================================
+Program Book
+====================================*/
+
+.program-book{
+
+padding:100px 0;
+
+background:#f8f9fc;
+
+}
+
+.program-book-card{
+
+background:#ffffff;
+
+padding:50px;
+
+border-radius:20px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+transition:.3s;
+
+text-align:center;
+
+}
+
+.program-book-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 50px rgba(123,44,255,.20);
+
+}
+
+.pdf-icon{
+
+font-size:90px;
+
+color:#d32f2f;
+
+margin-bottom:25px;
+
+}
+
+.program-book-card h3{
+
+font-size:30px;
+
+font-weight:700;
+
+color:#081230;
+
+margin-bottom:15px;
+
+}
+
+.program-book-card p{
+
+font-size:17px;
+
+color:#555;
+
+line-height:1.8;
+
+}
+
+.program-book .btn{
+
+padding:14px 35px;
+
+font-size:17px;
+
+font-weight:600;
+
+border-radius:50px;
+
+}
+
+.program-book .btn-primary{
+
+background:#7b2cff;
+
+border:none;
+
+}
+
+.program-book .btn-primary:hover{
+
+background:#6420d8;
+
+}
+
+.program-book .btn-outline-primary{
+
+border:2px solid #7b2cff;
+
+color:#7b2cff;
+
+}
+
+.program-book .btn-outline-primary:hover{
+
+background:#7b2cff;
+
+color:#fff;
 
 }
