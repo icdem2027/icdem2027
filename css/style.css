@@ -1946,3 +1946,276 @@ background:#7b2cff;
 color:#fff;
 
 }
+/*====================================
+Sponsors Page
+====================================*/
+
+.sponsors-section{
+
+padding:90px 0;
+
+background:#f8f9fc;
+
+}
+
+.sponsor-card{
+
+background:#ffffff;
+
+padding:40px 25px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+transition:.35s;
+
+height:100%;
+
+border-top:5px solid #8b5cf6;
+
+}
+
+.sponsor-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 45px rgba(123,44,255,.20);
+
+}
+
+.sponsor-card img{
+
+max-height:100px;
+
+width:auto;
+
+margin:auto;
+
+display:block;
+
+margin-bottom:20px;
+
+transition:.3s;
+
+}
+
+.sponsor-card:hover img{
+
+transform:scale(1.08);
+
+}
+
+.sponsor-card h3{
+
+font-size:26px;
+
+font-weight:700;
+
+color:#081230;
+
+margin-bottom:15px;
+
+}
+
+.sponsor-card h4{
+
+font-size:22px;
+
+font-weight:700;
+
+color:#081230;
+
+margin-bottom:10px;
+
+}
+
+.sponsor-card h5{
+
+font-size:18px;
+
+font-weight:600;
+
+color:#8b5cf6;
+
+}
+
+.sponsor-card p{
+
+font-size:16px;
+
+line-height:1.8;
+
+color:#555;
+
+margin-bottom:0;
+
+}
+
+/*====================================
+Travel & Accommodation
+====================================*/
+
+.travel-section{
+
+padding:90px 0;
+
+background:#f8f9fc;
+
+}
+
+.travel-card{
+
+background:#fff;
+
+padding:35px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+transition:.35s;
+
+height:100%;
+
+border-top:5px solid #8b5cf6;
+
+}
+
+.travel-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 45px rgba(123,44,255,.20);
+
+}
+
+.travel-card h4{
+
+font-size:22px;
+
+font-weight:700;
+
+margin:20px 0 15px;
+
+color:#081230;
+
+}
+
+.travel-card p{
+
+font-size:16px;
+
+line-height:1.8;
+
+color:#555;
+
+}
+
+/* Hotel Cards */
+
+.hotel-card{
+
+background:#fff;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+transition:.35s;
+
+height:100%;
+
+}
+
+.hotel-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 50px rgba(123,44,255,.20);
+
+}
+
+.hotel-card img{
+
+width:100%;
+
+height:240px;
+
+object-fit:cover;
+
+}
+
+.hotel-body{
+
+padding:25px;
+
+}
+
+.hotel-body h4{
+
+font-size:24px;
+
+font-weight:700;
+
+margin-bottom:12px;
+
+color:#081230;
+
+}
+
+.hotel-body p{
+
+font-size:16px;
+
+color:#555;
+
+margin-bottom:20px;
+
+}
+
+.hotel-body .btn{
+
+border-radius:50px;
+
+padding:10px 20px;
+
+font-weight:600;
+
+}
+
+.hotel-body .btn-primary{
+
+background:#7b2cff;
+
+border:none;
+
+}
+
+.hotel-body .btn-primary:hover{
+
+background:#6320d4;
+
+}
+
+.hotel-body .btn-outline-primary{
+
+border:2px solid #7b2cff;
+
+color:#7b2cff;
+
+}
+
+.hotel-body .btn-outline-primary:hover{
+
+background:#7b2cff;
+
+color:#fff;
+
+}
