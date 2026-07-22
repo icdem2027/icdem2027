@@ -160,332 +160,56 @@ box-shadow:none;
 max-width:1320px;
 
 }
-/*==========================
-Hero Banner
-==========================*/
 
-.hero{
-
-position:relative;
-
-min-height:850px;
-
-display:flex;
-
-align-items:center;
-
-background:url("../images/banner.jpg") center center/cover no-repeat;
-
-overflow:hidden;
-
-padding-top:120px;
-
-}
-
-.hero-overlay{
-
-position:absolute;
-
-top:0;
-left:0;
-
-width:100%;
-height:100%;
-
-background:rgba(10,10,35,.45);
-
-}
-
-.hero-content{
-
-position:relative;
-
-z-index:2;
-
-color:#fff;
-
-}
-
-.hero-content h5{
-
-font-size:42px;
-
-font-weight:700;
-
-color:#a855f7;
-
-margin-bottom:20px;
-
-}
-
-.hero-content h1{
-
-font-size:62px;
-
-font-weight:800;
-
-line-height:1.2;
-
-margin-bottom:35px;
-
-}
-
-.hero-info{
-
-display:flex;
-
-gap:35px;
-
-margin-bottom:35px;
-
-flex-wrap:wrap;
-
-}
-
-.hero-info span{
-
-font-size:18px;
-
-font-weight:500;
-
-}
-
-.hero-info i{
-
-color:#c084fc;
-
-margin-right:8px;
-
-}
-
-.hero-buttons{
-
-display:flex;
-
-gap:20px;
-
-flex-wrap:wrap;
-
-}
-
-.btn-register{
-
-background:#8b5cf6;
-
-color:#fff;
-
-padding:16px 35px;
-
-border-radius:8px;
-
-font-weight:600;
-
-transition:.3s;
-
-}
-
-.btn-register:hover{
-
-background:#6d28d9;
-
-color:#fff;
-
-}
-
-.btn-submit{
-
-border:2px solid #fff;
-
-color:#fff;
-
-padding:16px 35px;
-
-border-radius:8px;
-
-font-weight:600;
-
-transition:.3s;
-
-}
-
-.btn-submit:hover{
-
-background:#fff;
-
-color:#000;
-
-}
 /*==============================
 Hero Version 2.0
 ==============================*/
 
-.hero{
+.hero-slider{
+    position: relative;
+    overflow: hidden;
+}
 
-position:relative;
+.hero-slider .carousel-item{
+    min-height:100vh;
+}
 
-min-height:100vh;
-
-display:flex;
-
-align-items:center;
-
-padding-top:130px;
-
-background:
-
-linear-gradient(
-
-rgba(6,8,35,.45),
-
-rgba(6,8,35,.45)
-
-),
-
-url("../images/banner.jpg");
-
-background-size:cover;
-
-background-position:center;
-
-background-repeat:no-repeat;
-
-overflow:hidden;
-
+.hero-bg{
+    position:relative;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 .hero-overlay{
-
-position:absolute;
-
-top:0;
-
-left:0;
-
-width:100%;
-
-height:100%;
-
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.45);
 }
 
 .hero-content{
-
-position:relative;
-
-z-index:2;
-
-color:#fff;
-
-max-width:760px;
-
+    position:relative;
+    z-index:2;
+    color:#fff;
+    max-width:700px;
 }
 
-.hero-content h5{
-
-font-size:38px;
-
-font-weight:700;
-
-color:#c084fc;
-
-margin-bottom:18px;
-
+.hero-image{
+    position:relative;
+    z-index:2;
+    text-align:center;
 }
 
-.hero-content h1{
-
-font-size:64px;
-
-font-weight:800;
-
-line-height:1.15;
-
-margin-bottom:25px;
-
+.hero-image img{
+    max-width:100%;
 }
 
-.hero-content p{
-
-font-size:20px;
-
-line-height:1.8;
-
-margin-bottom:35px;
-
-max-width:650px;
-
-}
-
-.hero-info{
-
-display:flex;
-
-gap:35px;
-
-flex-wrap:wrap;
-
-margin-bottom:35px;
-
-}
-
-.hero-info span{
-
-font-size:18px;
-
-}
-
-.hero-info i{
-
-color:#c084fc;
-
-margin-right:8px;
-
-}
-
-.hero-buttons{
-
-display:flex;
-
-gap:20px;
-
-flex-wrap:wrap;
-
-}
-
-.btn-register{
-
-background:#8b5cf6;
-
-color:#fff;
-
-padding:16px 35px;
-
-border-radius:8px;
-
-font-weight:600;
-
-}
-
-.btn-submit{
-
-border:2px solid #fff;
-
-color:#fff;
-
-padding:16px 35px;
-
-border-radius:8px;
-
-font-weight:600;
-
-}
-
-.btn-submit:hover{
-
-background:#fff;
-
-color:#111;
-
-}
 /*==============================
 Floating Statistics
 ==============================*/
