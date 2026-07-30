@@ -162,79 +162,8 @@ max-width:1320px;
 }
 
 /*==============================
-Hero Version 2.0
-==============================*/
-
-.hero-slider{
-    position: relative;
-    overflow: hidden;
-}
-
-.hero-slider .carousel-item{
-    min-height:100vh;
-}
-
-.hero-bg{
-    position:relative;
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    background:url("../images/banner.jpg") center center;
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-
-.hero-overlay{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,.45);
-}
-
-.hero-content{
-    position:relative;
-    z-index:2;
-    color:#fff;
-    max-width:700px;
-}
-
-.hero-image{
-    position:relative;
-    z-index:2;
-    text-align:center;
-}
-
-.hero-image img{
-    max-width:100%;
-}
-
-/*==============================
 Floating Statistics
 ==============================*/
-
-.floating-stats{
-
-margin-top:-70px;
-
-position:relative;
-
-z-index:20;
-
-}
-
-.stats-card{
-
-background:#ffffff;
-
-border-radius:18px;
-
-padding:35px;
-
-box-shadow:0 15px 40px rgba(0,0,0,.12);
-
-}
 
 .stat-item{
 
@@ -267,17 +196,6 @@ margin:0;
 }
 @media (max-width:768px){
 
-.floating-stats{
-
-margin-top:20px;
-
-}
-
-.stats-card{
-
-padding:20px;
-
-}
 
 .stat-item{
 
