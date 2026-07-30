@@ -1,4 +1,4 @@
-console.log("iCDEM 2027 Loaded");
+console.log("iCDEM² 2027 Loaded");
 window.addEventListener("scroll",function(){
 
 const navbar=document.querySelector(".navbar");
