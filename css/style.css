@@ -575,30 +575,6 @@ background:#ffffff;
 
 }
 
-.committee-card{
-
-background:#fff;
-
-border-radius:20px;
-
-overflow:hidden;
-
-box-shadow:0 12px 30px rgba(0,0,0,.08);
-
-transition:.35s;
-
-height:100%;
-
-}
-
-.committee-card:hover{
-
-transform:translateY(-10px);
-
-box-shadow:0 20px 45px rgba(0,0,0,.15);
-
-}
-
 .committee-card img{
 
 width:100%;
