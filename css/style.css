@@ -2324,3 +2324,50 @@ margin-top:20px;
     box-shadow:0 20px 40px rgba(0,0,0,.12);
 
 }
+.hero-simple{
+    position:relative;
+    min-height:85vh;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    color:#fff;
+}
+
+.hero-slider{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    z-index:0;
+}
+
+.hero-slides{
+    display:flex;
+    width:300%;
+    height:100%;
+    transition:transform 0.8s ease-in-out;
+}
+
+.hero-slides img{
+    width:100%;
+    height:100%;
+    flex:0 0 100%;
+    object-fit:cover;
+}
+
+.hero-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(8,15,45,.55);
+    z-index:1;
+}
+
+.hero-simple .container{
+    position:relative;
+    z-index:2;
+}
