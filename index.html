@@ -133,17 +133,17 @@ REGISTER NOW
 const slides = document.getElementById("heroSlides");
 const totalSlides = slides.children.length;
 
-let index = 0;
+let index = 3;
 
 setInterval(() => {
 
-    index++;
+    index--;
 
-    if(index >= totalSlides){
-        index = 0;
+    if(index < 0){
+        index = totalSlides - 1;
     }
 
-    slides.style.transform = `translateX(${index * 100}%)`;
+    slides.style.transform = `translateX(-${index * 100}%)`;
 
 }, 3000);
 </script>
