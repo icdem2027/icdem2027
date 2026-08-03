@@ -2372,84 +2372,100 @@ margin-top:20px;
     position:relative;
     z-index:2;
 }
-/* ===========================
-   Awards Section
-=========================== */
 
-.award-card{
-    background:#fff;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
-    transition:.3s;
-}
+/* ===============================
+   Submission Guidelines
+================================ */
 
-.award-card:hover{
-    transform:translateY(-8px);
-}
-
-.award-header{
-    background:#b8860b;
-    color:#fff;
-    padding:18px;
-    font-size:22px;
-    font-weight:700;
-}
-
-.award-body{
-    padding:30px;
-}
-
-.award-badge{
-    display:inline-block;
-    background:#d4a017;
-    color:#fff;
-    padding:10px 20px;
-    border-radius:30px;
-    font-weight:700;
-}
-
-.award-body h2{
-    color:#7b2cbf;
-    font-weight:700;
-}
-
-.award-body h5{
-    color:#0d6efd;
-    font-weight:700;
-}
-
-.award-body hr{
-    margin:25px 0;
-}
-/* ===========================
-   Publication Section
-=========================== */
-
-.publication-card{
+.guideline-card{
 
     background:#ffffff;
 
-    border-radius:20px;
+    border-radius:18px;
 
-    padding:40px;
+    padding:30px;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    text-align:center;
 
-}
+    height:100%;
 
-.publication-icon{
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
 
-    font-size:70px;
-
-    color:#28a745;
+    transition:.3s;
 
 }
 
-.publication-card p{
+.guideline-card:hover{
 
-    font-size:17px;
+    transform:translateY(-8px);
+
+}
+
+.guideline-icon{
+
+    font-size:45px;
+
+    color:#5b2ca0;
+
+    margin-bottom:20px;
+
+}
+
+.guideline-card h5{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.guideline-card p{
+
+    color:#666;
+
+    margin-bottom:0;
+
+    line-height:1.7;
+
+}
+/* ===============================
+   FAQ
+================================ */
+
+.accordion-item{
+
+    border:none;
+
+    border-radius:12px;
+
+    margin-bottom:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.06);
+
+}
+
+.accordion-button{
+
+    font-weight:600;
+
+    padding:20px;
+
+}
+
+.accordion-button:not(.collapsed){
+
+    background:#5b2ca0;
+
+    color:#ffffff;
+
+}
+
+.accordion-body{
 
     line-height:1.8;
+
+    color:#555;
 
 }
