@@ -2520,3 +2520,300 @@ Conference Secretariat
     line-height:1.8;
 
 }
+/* ===========================
+   About Publication
+=========================== */
+
+.publication-main-icon{
+
+    font-size:180px;
+
+    color:#5b2ca0;
+
+}
+
+#about-publication p{
+
+    line-height:1.9;
+
+    color:#555;
+
+    text-align:justify;
+
+}
+/* ===========================
+Partner Journals
+=========================== */
+
+.journal-coming-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:50px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.journal-icon{
+
+    font-size:90px;
+
+    color:#5b2ca0;
+
+}
+
+.journal-coming-card ul{
+
+    margin-top:25px;
+
+}
+
+.journal-coming-card li{
+
+    padding:10px 0;
+
+    font-size:18px;
+
+}
+/* ===========================
+Publication Process
+=========================== */
+
+.process-card{
+
+    background:#ffffff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.process-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.process-number{
+
+    width:55px;
+
+    height:55px;
+
+    background:#5b2ca0;
+
+    color:#fff;
+
+    border-radius:50%;
+
+    margin:auto;
+
+    line-height:55px;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+
+}
+
+.process-icon{
+
+    font-size:45px;
+
+    color:#5b2ca0;
+
+    margin-bottom:20px;
+
+}
+
+/* ===========================
+Manuscript Preparation
+=========================== */
+
+.prep-card{
+
+    background:#ffffff;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.prep-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.prep-icon{
+
+    font-size:45px;
+
+    color:#5b2ca0;
+
+    margin-bottom:20px;
+
+}
+
+.prep-card h5{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.prep-card p{
+
+    color:#666;
+
+    line-height:1.7;
+
+    margin-bottom:0;
+
+}
+
+/* ===========================
+Peer Review Process
+=========================== */
+
+.review-card{
+
+    background:#ffffff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.review-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.review-number{
+
+    width:55px;
+
+    height:55px;
+
+    background:#198754;
+
+    color:#fff;
+
+    border-radius:50%;
+
+    line-height:55px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    margin:auto;
+
+    margin-bottom:20px;
+
+}
+
+.review-icon{
+
+    font-size:45px;
+
+    color:#198754;
+
+    margin-bottom:20px;
+
+}
+
+.review-card h5{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.review-card p{
+
+    color:#666;
+
+    line-height:1.7;
+
+}
+/* ===========================
+Publication Timeline
+=========================== */
+
+.timeline-table{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.timeline-table table{
+
+    margin-bottom:0;
+
+}
+
+.timeline-table thead{
+
+    background:#5b2ca0;
+
+    color:#ffffff;
+
+}
+
+.timeline-table th{
+
+    padding:18px;
+
+}
+
+.timeline-table td{
+
+    padding:18px;
+
+    vertical-align:middle;
+
+}
+
