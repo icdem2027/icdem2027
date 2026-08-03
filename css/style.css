@@ -2817,3 +2817,136 @@ Publication Timeline
 
 }
 
+/* ===========================
+   About Awards
+=========================== */
+
+.awards-main-icon{
+
+    font-size:180px;
+
+    color:#d4af37;
+
+}
+
+#about-awards p{
+
+    line-height:1.9;
+
+    color:#555;
+
+    text-align:justify;
+
+}
+
+/* ===========================
+Awards
+=========================== */
+
+.award-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    height:100%;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.award-icon{
+
+    font-size:70px;
+
+    color:#d4af37;
+
+    margin-bottom:20px;
+
+}
+
+.award-card h3{
+
+    font-weight:700;
+
+    color:#5b2ca0;
+
+    margin-bottom:20px;
+
+}
+
+.award-card h5{
+
+    margin-top:20px;
+
+    font-weight:700;
+
+}
+
+.award-card ul{
+
+    padding-left:20px;
+
+}
+
+.award-card li{
+
+    margin-bottom:10px;
+
+    line-height:1.7;
+
+}
+
+/* ===========================
+Eligibility & Rules
+=========================== */
+
+.rule-card{
+
+    background:#ffffff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    height:100%;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.rule-icon{
+
+    font-size:65px;
+
+    color:#198754;
+
+    margin-bottom:20px;
+
+}
+
+.rule-card h3{
+
+    font-weight:700;
+
+    color:#5b2ca0;
+
+}
+
+.rule-card ul{
+
+    padding-left:20px;
+
+    margin-top:20px;
+
+}
+
+.rule-card li{
+
+    margin-bottom:15px;
+
+    line-height:1.8;
+
+}
